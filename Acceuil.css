@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Shrikhand';
+     src: url('Shrikhand-Regular.ttf') format('truetype');
+     font-family: 'Roboto';
+     src: url('Roboto-Regular.ttf') format('truetype');
+}
+   /*  @media screen and (max-width: 1024px) {  */
+body {
+    font-family: 'Roboto';
+    text-align: center;
+    }
+
+title {
+    font-family: 'Shrikhand';
+}
+
+                                   /*     Code Header     */
+
+  .logo {
+    height: 70px;
+    padding: 40px 0 20px 0; 
+  }                                 
+
+
+                                      /*           Code de la partie Header    */ 
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+ 
+                                          /*  Code de la partie section "restaurant" */  
+
+section {
+    background-color: #f7f7f7;
+    text-align: left;
+}
+
+.Photopalettedugout {
+    width: 900px;
+    height: 500px;
+    border-radius: 20px 20px 0 0;
+}
+
+.Photolanoteenchantee {
+    width: 900px;
+    height: 500px;
+    border-radius: 20px 20px 0 0;
+}
+
+.PhotoAlafrancaise {
+    width: 900px;
+    height: 500px;
+    border-radius: 20px 20px 0 0;
+}
+
+.PhotoLedelicedessens {
+    width: 900px;
+    height: 500px;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.restaurant {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.fa-heart{
+    margin-left: 500px;
+    margin-bottom: 50px;  
+    width: 40px; 
+    
+}
+.fa-heart:active {
+    transform: scale(1.50);
+    background-color: #9356DC;
+    color: #9356DC;
+}
+
+.nouveau {
+    position: absolute;
+    background-color: #99E2D0;
+    margin-left: 700px;
+    margin-top: 40px;
+    padding: 0 50px 0 50px;
+    color: teal;
+    font-size: 22px;
+}
+
+
+                                                        /*       Code pour la partie Nav          */
+
+nav {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 120px;
+ 
+}
+
+
+
+.localisation {
+
+    background-color: #EDEDED;
+   padding: 20px;
+   box-shadow: 0px -10px 15px 0px #EAE5E5;
+}
+
+.textandAncre {
+    margin-bottom: 80px;
+    margin: 100px;
+}
+
+.ancreRestaurants {
+    background: linear-gradient(#FF79DA,#ae76e1);
+    background-color:#FF79DA ;
+    border-radius: 120px;
+    text-decoration-color: #f7f7f7;
+    text-decoration-line: none;  
+    color: white; 
+    padding: 30px; 
+    font-size: 15px;
+}
+
+
+
+                                                      /*  code de la partie Aside */
+
+    aside {
+        text-align: left;
+        margin-left: 10px;
+    }                           
+    
+    .Choisir {
+        display: flex; 
+        font-weight: bold;  
+        font-size: 25px;  }
+
+    .Composez {
+        display: flex;
+        font-weight: bold; 
+        font-size: 25px;    }
+ 
+    .Degustez {
+        display: flex;
+    font-weight: bold; 
+    font-size: 25px;   }
+
+  .Fonctionnement {
+    background-color: #f7f7f7;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 50px 0px 50px 0px;
+  }          
+  
+  .Fonctionnement:hover {
+    background-color: #f7f0ff;    
+  }
+
+
+
+.Numbers {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color:#9356DC ;
+    margin-right: 30px; 
+    padding: 12px 8px 8px 8px;  
+}
+
+.iconFonctionnement {
+    color: #b9b9b9;
+    margin-right: 40px;
+}
+
+.iconFonctionnement:hover {
+    color: #9356DC;
+}
+
+  h2 {
+      text-align: left;
+  }
+
+
+                                                      /* Code pour Footer */
+
+footer {
+    text-align: left;
+    color: white;
+    background-color: #504d4d;
+    padding: 40px;
+}
+
+.logofooter {
+    filter: invert(100%);
+    margin-bottom: 30px;
+}
+
+.fa-utensils {
+    margin-right: 20px;
+}
+
+.fa-hands-helping {
+    margin-right: 6px;
+}
+
+.a {
+    text-decoration: none;
+}
+
+
+}
