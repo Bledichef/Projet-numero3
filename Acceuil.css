@@ -139,7 +139,10 @@ nav {
     color: white; 
     padding: 30px; 
     font-size: 15px;
+    transition: transform .5s   ;
 }
+
+
 
 
 
@@ -230,4 +233,7 @@ footer {
     text-decoration: none;
 }
 
-
+.mail {
+    text-decoration: none;
+    color: white;
+}
