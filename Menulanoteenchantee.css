@@ -17,29 +17,23 @@ body {
     font-family: 'Roboto';
     text-align: center;
     }
-
-
-
-
- 
+     
 
           
                                                      /* Code pour Header */ 
-
-header {
-    padding: 30px 0 30px 0;
-}
- 
-.fa-arrow-left {
-    margin-right: 240px;
-   
-}
-
-.logo {
-    margin-right: 350px;
+ header {
+   padding: 30px 0 30px 0;
+  }
+                                                     
+ .fa-arrow-left {
+   margin-right: 240px;                                                       
+  }
+                                                    
+  .logo {
+  margin-right: 350px;
     height: 40px;
-}
-
+    }
+                                                    
                                                     /* code pour Section */
                         
  section {
@@ -94,8 +88,6 @@ h5 {
     margin-right: 300px;
     }
 
-
-
     .Titre {
         font-family: Shrikhand;
         font-weight:bolder;
@@ -107,31 +99,31 @@ h5 {
     .fa-heart {
         position: absolute;
         margin-left: 850px;
-        top: 760px;
-    
+        top: 760px;    
     }
 
-                                                     /* Code pour Footer */
+                                                         /* Code pour Footer */
  footer {
-      text-align: left;
-      color: white;
-      background-color: #504d4d;
-      padding: 40px;
-     }
-                                                    
- .logofooter {
- filter: invert(100%);
+    text-align: left;
+    color: white;
+    background-color: #504d4d;
+    padding: 40px;
+   }
+                                                  
+.logofooter {
+filter: invert(100%);
 margin-bottom: 30px;
- }
-                                                    
- .fa-utensils {
- margin-right: 20px;
- }
-                                                    
- .fa-hands-helping {
- margin-right: 6px;
- }
-                                                    
- .a {
- text-decoration: none;
- }
+}
+                                                  
+.fa-utensils {
+margin-right: 20px;
+}
+                                                  
+.fa-hands-helping {
+margin-right: 6px;
+}
+                                                  
+.a {
+text-decoration: none;
+}
+

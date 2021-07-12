@@ -6,50 +6,56 @@
 <title>À la Francaise </title>
 <body>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-@font-face {
-    font-family: 'Shrikhand';
-     src: url('Shrikhand-Regular.ttf') format('truetype');
-     font-family: 'Roboto';
-     src: url('Roboto-Regular.ttf') format('truetype');
-}
-
-body {
-    font-family: 'Roboto';
-    text-align: center;
+    @font-face {
+        font-family: 'Shrikhand';
+         src: url('Shrikhand-Regular.ttf') format('truetype');
+         font-family: 'Roboto';
+         src: url('Roboto-Regular.ttf') format('truetype');
     }
-
-
-
-
- 
-
-          
-                                                     /* Code pour Header */ 
-
-header {
-    padding: 30px 0 30px 0;
-}
- 
-.fa-arrow-left {
-    margin-right: 240px;
-   
-}
-
-.logo {
-    margin-right: 350px;
-    height: 40px;
-}
-
-                                                    /* code pour Section */
-                        
- section {
-     background-color: #f7f7f7;   
-     padding-bottom: 200px;   
-    display: flex;
-    flex-direction: column;
+    
+    body {
+        font-family: 'Roboto';
+        text-align: center;
+        }
+    
+    
+    
+    
      
+    
+              
+                                                         /* Code pour Header */ 
+    
+    header {
+        padding: 30px 0 30px 0;
     }
+     
+    .fa-arrow-left {
+        margin-right: 240px;
+       
+    }
+    
+    .logo {
+        margin-right: 350px;
+        height: 40px;
+    }
+     
 
+     .PhotoResto {
+        width: 974px;
+        height: 560px;
+        }  
+
+                                                      /* code pour Section */    
+
+   section {
+     background-color: #f7f7f7;   
+    padding-bottom: 200px;   
+      display: flex;
+        flex-direction: column;
+      }
+
+      
 h3 {
     text-decoration: underline #99E2D0;
     text-align: left;
@@ -61,10 +67,6 @@ h5 {
     font-weight:100;
 }
 
-.PhotoResto {
-    width: 974px;
-    height: 560px;
-}  
 
 .Choix {
     background-color: white;
@@ -93,8 +95,6 @@ h5 {
     margin-left: 300px;
     margin-right: 300px;
     }
-
-
 
     .Titre {
         font-family: Shrikhand;
@@ -135,3 +135,6 @@ margin-bottom: 30px;
  .a {
  text-decoration: none;
  }
+
+
+                                                                                                

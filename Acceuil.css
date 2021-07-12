@@ -93,7 +93,20 @@ section {
     font-size: 22px;
 }
 
+.lienLapalettedugout {
+    text-decoration: none;
+      color: black;
+}
 
+.lienLanoteenchantée {
+    text-decoration: none;
+    color: black;
+}
+
+.lien {
+    text-decoration: none;
+    color: black;
+}
                                                         /*       Code pour la partie Nav          */
 
 nav {
