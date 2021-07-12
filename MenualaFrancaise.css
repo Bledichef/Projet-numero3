@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Shrikhand';
+     src: url('Shrikhand-Regular.ttf') format('truetype');
+     font-family: 'Roboto';
+     src: url('Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Roboto';
+    text-align: center;
+    }
+
+
+
+
+                                                      /* code Aside */ 
+
+.PhotoResto {
+    width: 974px;
+    height: 560px;
+}            
+                                                     /* Code pour Header */ 
+ 
+.fa-arrow-left {
+    margin-right: 240px;
+    width: 10px;
+}
+
+.logo {
+    margin-right: 350px;
+    height: 40px;
+}
+
+                                                    /* code pour Section */
+                        
+ section {
+     background-color: #f7f7f7;   
+     margin-bottom: 150px;   
+    }
+
+h3 {
+    text-decoration: underline #99E2D0;
+    text-align: left;
+    font-weight: lighter;
+}
+
+h5 {
+    font-weight:100;
+}
+
+.Choix {
+    background-color: white;
+    border-radius: 80px;
+    margin: 40px 25px 30px 25px;
+}
+
+.Commander {
+    background: linear-gradient(#FF79DA,#ae76e1);
+    background-color:#FF79DA ;
+    border-radius: 120px;
+    text-decoration-color: #f7f7f7;
+    text-decoration-line: none;  
+    color: white; 
+    padding: 30px; 
+    font-size: 15px;
+  
+    }
+
+
+                                                     /* Code pour Footer */
+ footer {
+      text-align: left;
+      color: white;
+      background-color: #504d4d;
+      padding: 40px;
+     }
+                                                    
+ .logofooter {
+ filter: invert(100%);
+margin-bottom: 30px;
+ }
+                                                    
+ .fa-utensils {
+ margin-right: 20px;
+ }
+                                                    
+ .fa-hands-helping {
+ margin-right: 6px;
+ }
+                                                    
+ .a {
+ text-decoration: none;
+ }
