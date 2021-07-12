@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="MenualaFrancaise.css" />
+<title>À la Francaise </title>
+<body>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+@font-face {
+    font-family: 'Shrikhand';
+     src: url('Shrikhand-Regular.ttf') format('truetype');
+     font-family: 'Roboto';
+     src: url('Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Roboto';
+    text-align: center;
+    }
+
+
+
+
+ 
+
+          
+                                                     /* Code pour Header */ 
+
+header {
+    padding: 30px 0 30px 0;
+}
+ 
+.fa-arrow-left {
+    margin-right: 240px;
+   
+}
+
+.logo {
+    margin-right: 350px;
+    height: 40px;
+}
+
+                                                    /* code pour Section */
+                        
+                                                    section {
+   background-color: #f7f7f7;   
+   padding-bottom: 200px;   
+   display: flex;
+   flex-direction: column;
+   }
+                                                   
+   h3 {
+  text-decoration: underline #99E2D0;
+  text-align: left;
+  font-weight: lighter;
+   margin-left: 40px;
+  }
+                                                   
+   h5 {
+   font-weight:100;
+   }
+                                                   
+ .PhotoResto {
+   width: 974px;
+   height: 560px;
+   } 
+
+   .Choix {
+    background-color: white;
+    border-radius: 80px;
+    margin: 40px 25px 30px 25px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.Argumentsprix {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.Commander {
+    background: linear-gradient(#FF79DA,#ae76e1);
+    background-color:#FF79DA ;
+    border-radius: 120px;
+    text-decoration-color: #f7f7f7;
+    text-decoration-line: none;  
+    color: white; 
+    padding: 20px 80px 20px 80px; 
+    font-size: 15px;  
+    margin-left: 300px;
+    margin-right: 300px;
+    }
+
+    .Titre {
+        font-family: Shrikhand;
+        font-weight:bolder;
+        font-style: italic;
+        font-size: xxx-large;
+        text-align: left;
+    }
+
+    .fa-heart {
+        position: absolute;
+        margin-left: 850px;
+        top: 760px;
+    
+    }
+
+                                                     /* Code pour Footer */
+ footer {
+      text-align: left;
+      color: white;
+      background-color: #504d4d;
+      padding: 40px;
+     }
+                                                    
+ .logofooter {
+ filter: invert(100%);
+margin-bottom: 30px;
+ }
+                                                    
+ .fa-utensils {
+ margin-right: 20px;
+ }
+                                                    
+ .fa-hands-helping {
+ margin-right: 6px;
+ }
+                                                    
+ .a {
+ text-decoration: none;
+ }
+                                    
+                                                    
