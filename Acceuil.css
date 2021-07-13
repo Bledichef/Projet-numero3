@@ -71,11 +71,17 @@ section {
     margin-left: 20px;
 }
 
+.restaurant:hover{
+    transform: scale(1.10);
+}
+
+
+
 .fa-heart{
     margin-left: 500px;
     margin-bottom: 50px;  
     width: 40px; 
-    
+      
 }
 .fa-heart:active {
     transform: scale(1.50);
@@ -237,3 +243,25 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+
+
+
+
+                                               /* Format Grand écran  */
+
+
+      @media screen and (min-width: 1024px)    {       
+
+        section {
+            text-align: center;
+        }
+      
+.restaurant {
+     
+    align-content: center;
+}
+      
+  
+
+    }
