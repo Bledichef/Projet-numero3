@@ -150,8 +150,12 @@ h5 {
     .fa-heart {
         position: absolute;
         margin-left: 850px;
-        top: 760px;
-    
+        top: 760px;    
+    }
+
+    .fa-heart:active {
+        transform: scale(1.50);
+        color: #9356DC;
     }
 
                                                      /* Code pour Footer */

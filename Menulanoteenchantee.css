@@ -145,6 +145,10 @@ h5 {
         top: 760px;    
     }
 
+    .fa-heart:active {
+        transform: scale(1.50);
+        color: #9356DC;
+    }
                                                          /* Code pour Footer */
  footer {
     text-align: left;
