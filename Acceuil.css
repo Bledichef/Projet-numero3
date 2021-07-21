@@ -23,19 +23,7 @@ title {
     padding: 40px 0 20px 0; 
   }                                 
 
-  .loader {
-    border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #3498db; /* Blue */
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
+
   
 
                                       /*           Code de la partie Header    */ 
@@ -259,7 +247,45 @@ footer {
     color: white;
 }
 
+                                                                            /* loader */
 
+.loader {
+    background:linear-gradient(to bottom right,#FF79DA,#9356DC,#99E2D0);
+    width: 550px;
+    height: 350px;
+    font-size: 4.6rem;
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 50%;
+    pointer-events: none;
+    margin: 600px 50px 50px 200px;
+    animation: loader 5s ease-in-out 1.3s forwards;
+}
+
+@keyframes loader {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 0;
+    }
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .loader {
+    border: 16px solid #FF79DA;
+    border-top: 16px solid #99E2D0;
+  }
+
+  .loaderimg {
+      width: 480px;
+      margin-top: 130px;
+  }
 
 
 
@@ -278,5 +304,11 @@ footer {
 }
       
   
+.loader {
+    margin: 200px 0 0 350px;
+}
+
+
+
 
     }
