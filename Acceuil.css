@@ -8,7 +8,10 @@
 body {
     font-family: 'Roboto';
     text-align: center;
-    }
+     }
+
+
+
 
 title {
     font-family: 'Shrikhand';
@@ -21,9 +24,10 @@ title {
   .logo {
     height: 70px;
     padding: 40px 0 20px 0; 
+    animation: font 8s ease-in-out  ;
   }                                 
 
-
+  
   
 
                                       /*           Code de la partie Header    */ 
@@ -31,7 +35,7 @@ title {
 header {
     margin-top: 20px;
     margin-bottom: 20px;
-  
+    animation: font 8s ease-in-out  ;
 }
 
  
@@ -40,6 +44,7 @@ header {
 section {
     background-color: #f7f7f7;
     text-align: left;
+    animation: font 8s ease-in-out  ;
 }
 
 .Photopalettedugout {
@@ -122,7 +127,7 @@ nav {
     background-color: #f7f7f7;
     text-align: center;
     padding-bottom: 120px;
- 
+    animation: font 8s ease-in-out ;
 }
 
 
@@ -160,6 +165,7 @@ nav {
     aside {
         text-align: left;
         margin-left: 10px;
+        animation: font 8s ease-in-out ;
     }                           
     
     .Choisir {
@@ -223,6 +229,7 @@ footer {
     color: white;
     background-color: #504d4d;
     padding: 40px;
+    animation: font 8s ease-in-out  ;
 }
 
 .logofooter {
@@ -260,22 +267,27 @@ footer {
     z-index: 9999;
     border-radius: 50%;
     pointer-events: none;
-    margin: 600px 50px 50px 200px;
-    animation: loader 5s ease-in-out 1.3s forwards;
+    margin: 600px 50px 50px 200px; 
+    animation: loader 5s ease-in-out 1.3s forwards;  
+}
+
+@keyframes font {
+    0% {
+        opacity: -1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
 }
 
 @keyframes loader {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 0;
-    }
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% { transform: rotate(0deg);    opacity: 1; }
+     50% {opacity: 0.5;}    
+    100% { transform: rotate(360deg);
+    opacity: 0; }
   }
   .loader {
     border: 16px solid #FF79DA;
@@ -288,6 +300,7 @@ footer {
   }
 
 
+ 
 
                                                /* Format Grand écran  */
 
