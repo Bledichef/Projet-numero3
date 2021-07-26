@@ -92,9 +92,19 @@ section {
     width: 40px; 
       
 }
-.fa-heart:active {
-    transform: scale(1.50);
-    color: #9356DC;
+.fa-heart:hover {
+/*    transform: scale(1.50);
+    color: #9356DC;  */
+
+    animation: animheart 3s ease-in-out;
+    display: inline-block;
+    opacity: 1;
+    background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
 
 .nouveau {
