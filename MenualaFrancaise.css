@@ -51,10 +51,11 @@ header {
     }
 
 h3 {
-    text-decoration: underline #99E2D0;
-    text-align: left;
+       text-align: left;
     font-weight: lighter;
     margin-left: 40px;
+    border-bottom: 2px #99E2D0 solid ;
+    margin-right: 870px; 
 }
 
 h5 {
@@ -164,7 +165,7 @@ h5 {
         -webkit-text-fill-color: transparent;
         font-weight: bold;
     }
-    }
+    
 
         
 
@@ -197,3 +198,26 @@ margin-bottom: 30px;
     text-decoration: none;
     color: white;
  }
+
+
+
+                                               /* Format Grand écran  */
+
+
+                                               @media screen and (min-width: 1024px)    {       
+
+   .fa-heart:hover {
+     animation: animheart 3s ease-in-out;
+      display: inline-block;
+  opacity: 1;
+   background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+   background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  -webkit-background-clip: text;
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+      }     
+      
+      h3 {
+        margin-right: auto;
+        }     

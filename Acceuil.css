@@ -92,7 +92,7 @@ section {
     width: 40px; 
       
 }
-.fa-heart:hover {
+.fa-heart:active {
 /*    transform: scale(1.50);
     color: #9356DC;  */
 
@@ -216,11 +216,15 @@ nav {
     background-color:#9356DC ;
     margin-right: 30px; 
     padding: 12px 8px 8px 8px;  
+    color: white;
+    position: absolute;
+    left: 50px;
 }
 
 .iconFonctionnement {
     color: #b9b9b9;
     margin-right: 40px;
+    margin-left: 100px;
 }
 
 .iconFonctionnement:hover {
@@ -331,7 +335,19 @@ footer {
     margin: 200px 0 0 350px;
 }
 
-
+.fa-heart:hover {
+    /*    transform: scale(1.50);
+        color: #9356DC;  */
+    
+        animation: animheart 3s ease-in-out;
+        display: inline-block;
+        opacity: 1;
+        background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
 
 
     }
