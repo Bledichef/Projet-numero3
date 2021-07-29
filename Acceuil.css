@@ -146,7 +146,7 @@ nav {
 .localisation {
 
     background-color: #EDEDED;
-   padding: 20px;
+   padding: 0px 0px 20px  0px ;
    box-shadow: 0px -10px 15px 0px #EAE5E5;
 }
 
@@ -168,7 +168,12 @@ nav {
 }
 
 
-
+.fa-map-marker-alt {
+    position: relative;
+    left: -240px;
+    bottom: -65px;
+    
+} 
 
 
                                                       /*  code de la partie Aside */
@@ -181,18 +186,19 @@ nav {
     
     .Choisir {
         display: flex; 
+        justify-content: flex-start;
         font-weight: bold;  
-        font-size: 25px;  }
+        font-size: 30px;  }
 
     .Composez {
         display: flex;
         font-weight: bold; 
-        font-size: 25px;    }
+        font-size: 30px;    }
  
     .Degustez {
         display: flex;
     font-weight: bold; 
-    font-size: 25px;   }
+    font-size: 30px;   }
 
   .Fonctionnement {
     background-color: #f7f7f7;
@@ -203,8 +209,7 @@ nav {
     padding: 50px 0px 50px 0px;
     }     
   
-  
-  
+
   .Fonctionnement:hover {
     background-color: #f7f0ff;    
   }
@@ -220,10 +225,10 @@ nav {
     margin-right: 30px; 
     padding: 12px 8px 8px 8px;  
     color: white;
-    position: absolute;
-    left: 50px;
-    top: 950px;
-}
+    position: relative;
+    left: -25px;
+    top: -10px;
+ }
 
 .Numbers1 {
     text-align: center;
@@ -234,9 +239,9 @@ nav {
     margin-right: 30px; 
     padding: 12px 8px 8px 8px;  
     color: white;
-    position: absolute;
-    left: 50px;
-    top: 1100px;
+    position: relative;
+    left: -25px;
+    top: -10px;
 }
 
 .Numbers2 {
@@ -248,15 +253,14 @@ nav {
     margin-right: 30px; 
     padding: 12px 8px 8px 8px;  
     color: white;
-    position: absolute;
-    left: 50px;
-    top: 1265px;
+    position: relative;
+    left: -25px;
+    top: -10px;
 }
 
 .iconFonctionnement {
     color: #b9b9b9;
     margin-right: 40px;
-    margin-left: 100px;
 }
 
 .iconFonctionnement:hover {
@@ -382,14 +386,10 @@ footer {
         -webkit-text-fill-color: transparent;
         font-weight: bold;
     }
+    .fa-map-marker-alt {
+        bottom: -45px;
 
-    .Numbers {
-        top: 740px;
-    }
-
-    .Numbers1 {
-        top: 905px;
-    }
-    .Numbers2 {
-        top: 1060px;
+    .textandAncre {
+        display: flex;
+       justify-content:space-around;
     }
