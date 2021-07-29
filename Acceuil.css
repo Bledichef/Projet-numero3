@@ -201,7 +201,9 @@ nav {
     margin-left: 60px;
     margin-right: 60px;
     padding: 50px 0px 50px 0px;
-  }          
+    }     
+  
+  
   
   .Fonctionnement:hover {
     background-color: #f7f0ff;    
@@ -220,6 +222,35 @@ nav {
     color: white;
     position: absolute;
     left: 50px;
+    top: 950px;
+}
+
+.Numbers1 {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color:#9356DC ;
+    margin-right: 30px; 
+    padding: 12px 8px 8px 8px;  
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 1100px;
+}
+
+.Numbers2 {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color:#9356DC ;
+    margin-right: 30px; 
+    padding: 12px 8px 8px 8px;  
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 1265px;
 }
 
 .iconFonctionnement {
@@ -350,6 +381,15 @@ footer {
         background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: bold;
+    }
 
+    .Numbers {
+        top: 740px;
+    }
 
+    .Numbers1 {
+        top: 905px;
+    }
+    .Numbers2 {
+        top: 1060px;
     }
