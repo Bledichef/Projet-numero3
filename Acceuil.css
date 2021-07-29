@@ -80,10 +80,11 @@ section {
     margin-left: 20px;
 }
 
+                         /* Grossissement au survol des restaurants a finir 
 .restaurant:hover{
-    transform: scale(1.10) ;
+    transform: scale(1.2) ;
   
-}
+}         */
 
 
 .fa-heart{
@@ -233,6 +234,7 @@ nav {
 
   h2 {
       text-align: left;
+      margin-left: 25px;
   }
 
 
@@ -332,7 +334,7 @@ footer {
       
   
 .loader {
-    margin: 200px 0 0 350px;
+    margin: 200px 0 0 650px; 
 }
 
 .fa-heart:hover {
