@@ -39,6 +39,12 @@ header {
     margin-right: 350px;
     height: 40px;
 }
+                                                     /*    Code Aside */
+
+.PhotoResto {
+    width: 974px;
+    height: 560px;
+}  
 
                                                     /* code pour Section */
                         
@@ -47,7 +53,9 @@ header {
      padding-bottom: 200px;   
     display: flex;
     flex-direction: column;
-     
+    position: relative;
+    top: -110px;
+    border-radius: 50px 50px 0 0;
     }
 
 h3 {
@@ -62,10 +70,7 @@ h5 {
     font-weight:100;
 }
 
-.PhotoResto {
-    width: 974px;
-    height: 560px;
-}  
+
 
 .Choix {
     background-color: white;
@@ -149,7 +154,8 @@ h5 {
     .fa-heart {
         position: absolute;
         margin-left: 850px;
-        top: 760px;    
+        top: 60px;    
+        width: 62px;
     }
 
     .fa-heart:active {

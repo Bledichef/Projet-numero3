@@ -45,6 +45,7 @@ section {
     background-color: #f7f7f7;
     text-align: left;
     animation: font 8s ease-in-out  ;
+
 }
 
 .Photopalettedugout {
@@ -90,7 +91,7 @@ section {
 .fa-heart{
     margin-left: 500px;
     margin-bottom: 50px;  
-    width: 40px; 
+    width: 62px; 
       
 }
 .fa-heart:active {
@@ -289,7 +290,7 @@ footer {
 }
 
 .fa-utensils {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .fa-hands-helping {
