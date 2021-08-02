@@ -81,6 +81,10 @@ section {
     margin-left: 20px;
 }
 
+h3 {
+    margin-left: 40px;
+}
+
                          /* Grossissement au survol des restaurants a finir 
 .restaurant:hover{
     transform: scale(1.2) ;
@@ -114,7 +118,7 @@ section {
     background-color: #99E2D0;
     margin-left: 700px;
     margin-top: 40px;
-    padding: 0 50px 0 50px;
+    padding: 0 50px 0 10px;
     color: teal;
     font-size: 22px;
 }
@@ -132,6 +136,15 @@ section {
 .lien {
     text-decoration: none;
     color: black;
+}
+
+.lieuxcoeur {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 70px;
+    font-weight: normal;
+    font-size: 30px;
 }
                                                         /*       Code pour la partie Nav          */
 
@@ -271,7 +284,7 @@ nav {
   h2 {
       text-align: left;
       margin-left: 25px;
-  }
+      padding: 90px 0 40px 0  }
 
 
                                                       /* Code pour Footer */
