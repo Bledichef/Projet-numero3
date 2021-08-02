@@ -31,13 +31,15 @@
     }
      
     .fa-arrow-left {
-        margin-right: 240px;
-       
+     
+       font-size: xx-large;
+       position: absolute;
+       left: 35px;
     }
     
     .logo {
-        margin-right: 350px;
-        height: 40px;
+       
+        height: 60px;
     }
      
 
@@ -78,6 +80,8 @@ h3 {
 h5 {
     font-weight:100;
 }
+
+
 .Argumentsprix {
     display: flex;
     justify-content: space-between;
@@ -156,16 +160,18 @@ h5 {
 
     .Titre {
         font-family: Shrikhand;
-        font-weight:bolder;
+        font-weight: 950;
         font-style: italic;
-        font-size: xxx-large;
-        text-align: left;
+        font-size: 62px;
+       text-align: left;
+        margin-left: 30px;
+       
     }
 
     .fa-heart {
         position: absolute;
-        margin-left: 850px;
-        top: 60px;    
+        margin-left: 820px;
+        top: 100px;    
         width: 62px;
     }
 
