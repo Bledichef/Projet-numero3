@@ -6,73 +6,83 @@
 <title>À la Francaise </title>
 <body>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-@font-face {
-    font-family: 'Shrikhand';
-     src: url('Shrikhand-Regular.ttf') format('truetype');
-     font-family: 'Roboto';
-     src: url('Roboto-Regular.ttf') format('truetype');
-}
-
-body {
-    font-family: 'Roboto';
-    text-align: center;
+    @font-face {
+        font-family: 'Shrikhand';
+         src: url('Shrikhand-Regular.ttf') format('truetype');
+         font-family: 'Roboto';
+         src: url('Roboto-Regular.ttf') format('truetype');
     }
+    
+    body {
+        font-family: 'Roboto';
+        text-align: center;
+        }
+    
+    
+    
+    
+     
+    
+              
+                                                         /* Code pour Header */ 
+    
+    header {
+        padding: 30px 0 30px 0;
+    }
+     
+    .fa-arrow-left {
+     
+       font-size: xx-large;
+       position: absolute;
+       left: 35px;
+    }
+    
+    .logo {
+       
+        height: 60px;
+    }
+     
 
 
 
+                                                    /*  Code pour Aside */
 
- 
+     .PhotoResto {
+      width: 974px;
+        height: 560px;
+           }                                                  
+                                                     
 
-          
-                                                     /* Code pour Header */ 
 
-header {
-    padding: 30px 0 30px 0;
-}
- 
-.fa-arrow-left {
-   
-   font-size: xx-large;
-   position: absolute;
-   left: 35px;
-}
 
-.logo {
-   
-    height: 60px;
-}
-                                                 /* Code Aside */
-.PhotoResto {
-    width: 974px;
-    height: 560px;
-    } 
+                                                      /* code pour Section */    
 
-                                                    /* code pour Section */
-                        
    section {
-   background-color: #f7f7f7;   
-   padding-bottom: 200px;   
-   display: flex;
-   flex-direction: column;
-   position: relative;
-   top: -110px;
-   border-radius: 50px 50px 0 0;
-   }
-                                                   
-   h3 {
- 
-  text-align: left;
-  font-weight: lighter;
-   margin-left: 40px;
-   border-bottom: 2px #99E2D0 solid ;
-   margin-right: 870px; 
-  }
-                                                   
-   h5 {
-   font-weight:100;
-   }
-                                                   
-   .Argumentsprix {
+     background-color: #f7f7f7;   
+    padding-bottom: 200px;   
+      display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -110px;
+        border-radius: 50px 50px 0 0;
+      }
+
+      
+h3 {
+  /*  text-decoration: underline #99E2D0; */
+    text-align: left;
+    font-weight: lighter;
+    margin-left: 40px;
+    border-bottom: 2px #99E2D0 solid ;
+  margin-right: 870px;    
+}
+
+h5 {
+    font-weight:100;
+}
+
+
+.Argumentsprix {
     display: flex;
     justify-content: space-between;
     font-size: x-large;
@@ -92,6 +102,7 @@ header {
     -o-animation: fadein 10s; /* Opera */
     position: relative;
 }
+
 
 @keyframes fadein {
     from {
@@ -126,11 +137,7 @@ header {
     }
 }
 
-.Argumentsprix {
-    display: flex;
-    justify-content: space-between;
-    font-size: x-large;
-}
+
 
 .Commander {
     background: linear-gradient(#FF79DA,#ae76e1);
@@ -145,21 +152,21 @@ header {
     margin-right: 300px;
     }
 
-.Commander:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
--webkit-transform: scale(1.5); /* Safari 3-8 */
-transform: scale(1.5);
-}
+    .Commander:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    }
 
-.Titre {
-    font-family: Shrikhand;
-    font-weight: 950;
-    font-style: italic;
-    font-size: 62px;
-   text-align: left;
-    margin-left: 30px;
-   
-}
+    .Titre {
+        font-family: Shrikhand;
+        font-weight: 950;
+        font-style: italic;
+        font-size: 62px;
+       text-align: left;
+        margin-left: 30px;
+       
+    }
 
     .fa-heart {
         position: absolute;
@@ -170,16 +177,17 @@ transform: scale(1.5);
 
     .fa-heart:active {
         animation: animheart 3s ease-in-out;
-        display: inline-block;
-        opacity: 1;
-        background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-        background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: bold;
-    }
-    
+    display: inline-block;
+    opacity: 1;
+    background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+
 article:hover .fa-check-circle {
     font-size: 1.5em;
     color: #fff;
@@ -250,7 +258,6 @@ article:hover .icon {
       transform: rotate(360deg);
     }
   }  
-
                                                      /* Code pour Footer */
  footer {
       text-align: left;
@@ -275,48 +282,61 @@ margin-bottom: 30px;
  .a {
  text-decoration: none;
  }
-      
+
  .mail {
     text-decoration: none;
     color: white;
  }
-                                                           /* Format Grand écran  */
 
 
-                                                           @media screen and (min-width: 1024px)    {       
 
-                                                            .fa-heart:hover {
-                                                              animation: animheart 3s ease-in-out;
-                                                               display: inline-block;
-                                                           opacity: 1;
-                                                            background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-                                                            background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-                                                           -webkit-background-clip: text;
-                                                            background-clip: text;
-                                                           -webkit-text-fill-color: transparent;
-                                                           font-weight: bold;
-                                                               }    
-                                                               
- h3 {
-     margin-right: auto;
- }                                                              
 
- .icon{
-    display: flex;
-     justify-content: center;
-     align-items: center;
-     background-color: #99E2D0;
-     width: 100px;
-     height: 164px;
-     border-top-right-radius: 40px;
-     border-bottom-right-radius: 40px;
-     right: -20px;
-     top: -72px;
-     position: absolute; 
-     opacity: 0; 
- }
 
- .PhotoResto {
-    width: 1700px;
-    height: 660px;
-}  
+
+
+
+
+
+
+
+
+
+                                                /* Format Grand écran  */
+ @media screen and (min-width: 1024px)    {       
+
+ .fa-heart:hover {
+ animation: animheart 3s ease-in-out;
+ display: inline-block;
+ opacity: 1;
+  background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  -webkit-background-clip: text;
+ background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  }         
+  
+  h3 {
+    margin-right: auto;
+    }    
+    
+    .icon{
+        display: flex;
+         justify-content: center;
+         align-items: center;
+         background-color: #99E2D0;
+         width: 100px;
+         height: 164px;
+         border-top-right-radius: 40px;
+         border-bottom-right-radius: 40px;
+         right: -20px;
+         top: -72px;
+         position: absolute; 
+         opacity: 0; 
+     }
+
+     .PhotoResto {
+        width: 1700px;
+        height: 660px;
+    }  
+                                                                                                
