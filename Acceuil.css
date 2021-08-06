@@ -196,7 +196,12 @@ nav {
         text-align: left;
         margin-left: 10px;
         animation: font 8s ease-in-out ;
-    }                           
+    }     
+    
+    h4{
+        position: relative;
+        top: -39px;
+    }
     
     .Choisir {
         display: flex; 
