@@ -302,7 +302,6 @@ margin-bottom: 30px;
   background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   -webkit-background-clip: text;
- background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   }         
@@ -330,4 +329,4 @@ margin-bottom: 30px;
         width: 1700px;
         height: 660px;
     }  
-                                                                                                
+}                                                                                    
