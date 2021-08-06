@@ -232,8 +232,22 @@ nav {
   .Fonctionnement:hover {
     background-color: #f7f0ff;    
   }
-
-
+  .fa-mobile-alt{
+      position: relative;
+      top: 35px;
+  }
+  .fa-ellipsis-v {
+    position: relative;
+    top: 35px; 
+  }
+  .fa-bars{
+    position: relative;
+    top: 35px; 
+  }
+  .fa-store{
+    position: relative;
+    top: 35px;   
+  }
 
 .Numbers {
     text-align: center;
@@ -246,7 +260,7 @@ nav {
     color: white;
     position: relative;
     left: -25px;
-    top: -10px;
+    top: 25px;
  }
 
 .Numbers1 {
@@ -260,7 +274,7 @@ nav {
     color: white;
     position: relative;
     left: -25px;
-    top: -10px;
+    top: 25px;
 }
 
 .Numbers2 {
@@ -274,7 +288,7 @@ nav {
     color: white;
     position: relative;
     left: -25px;
-    top: -10px;
+    top: 25px;
 }
 
 .iconFonctionnement {
