@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="utf-8" />
-<link rel="stylesheet" href="MenualaFrancaise.css" />
-<title>À la Francaise </title>
-<body>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
 @font-face {
     font-family: 'Shrikhand';
      src: url('Shrikhand-Regular.ttf') format('truetype');
@@ -91,10 +84,7 @@ h5 {
     justify-content: space-between;
     font-size: x-large;
     position: relative;
-}.
-
-
-
+}
 @keyframes fadein {
     from {
         opacity:0;
@@ -155,7 +145,6 @@ h5 {
 
     .Titre {
         font-family: Shrikhand;
-        font-weight: 950;
         font-style: italic;
         font-size: 62px;
        text-align: left;
