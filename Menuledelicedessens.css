@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="utf-8" />
-<link rel="stylesheet" href="MenualaFrancaise.css" />
-<title>À la Francaise </title>
-<body>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
 @font-face {
     font-family: 'Shrikhand';
      src: url('Shrikhand-Regular.ttf') format('truetype');
@@ -153,7 +146,6 @@ transform: scale(1.5);
 
 .Titre {
     font-family: Shrikhand;
-    font-weight: 950;
     font-style: italic;
     font-size: 62px;
    text-align: left;
@@ -175,7 +167,6 @@ transform: scale(1.5);
         background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
         background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
         -webkit-background-clip: text;
-        background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: bold;
     }
@@ -292,7 +283,6 @@ margin-bottom: 30px;
                                                             background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
                                                             background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
                                                            -webkit-background-clip: text;
-                                                            background-clip: text;
                                                            -webkit-text-fill-color: transparent;
                                                            font-weight: bold;
                                                                }    
@@ -319,4 +309,4 @@ margin-bottom: 30px;
  .PhotoResto {
     width: 1700px;
     height: 660px;
-}  
+}  }
