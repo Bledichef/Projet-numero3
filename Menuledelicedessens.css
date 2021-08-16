@@ -337,5 +337,12 @@ body{
     .PhotoResto{
     width: 575px;
 }
-
+.icon{
+    height: 163px;
+    top: -70px;
+}
+.Commander{
+    margin-left: 127px;
+    margin-right: 127px;
+}
 }

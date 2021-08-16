@@ -338,11 +338,21 @@ margin-bottom: 30px;
             max-width: 575px;
         }
         .fa-heart{
-            margin-left: 325px;
-            top: 223px;
+            margin-left: 412px;
+            top: 217px;
         }
             .PhotoResto{
             width: 575px;
         }
-        
+        .icon{
+            height: 163px;
+            top: -70px;
+        }
+        .Commander{
+            margin-left: 127px;
+            margin-right: 127px;
+        }
+        h4 {
+            top: 0px;
+        }
         }
