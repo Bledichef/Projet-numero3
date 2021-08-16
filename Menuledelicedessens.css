@@ -310,3 +310,32 @@ margin-bottom: 30px;
     width: 1700px;
     height: 660px;
 }  }
+@media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
+   
+    .icon{
+        width: 98px;
+        height: 162px;
+        top: -70px;
+    }
+  .PhotoResto{
+      width: 900px;
+  }
+/*.fa-heart{
+    margin-left: 377px;
+    top: 206px;
+}*/
+
+}
+@media screen and (max-width: 575px){                                                                     /* code pour mobile */
+body{
+    max-width: 575px;
+}
+.fa-heart{
+    margin-left: 325px;
+    top: 223px;
+}
+    .PhotoResto{
+    width: 575px;
+}
+
+}

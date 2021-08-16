@@ -403,6 +403,7 @@ footer {
   
 .loader {
     margin: 200px 0 0 650px; 
+   
 }
 
 .fa-heart:hover {
@@ -425,4 +426,25 @@ footer {
         display: flex;
        justify-content:space-around;
     }
+}
+@media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
+
+.Photopalettedugout{
+    width: auto;
+}
+.Photolanoteenchantee{
+    width: 750px;
+}
+.PhotoAlafrancaise{
+    width: auto;
+}
+.PhotoLedelicedessens{
+width: auto;    
+}
+
+
+ 
+
+
+
 }
