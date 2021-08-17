@@ -60,9 +60,16 @@ h3 {
     border-bottom: 2px #99E2D0 solid ;
     margin-right: 870px; 
 }
-
+h4{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 h5 {
     font-weight:100;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .Choix {
@@ -76,7 +83,8 @@ h5 {
     -moz-animation: fadein 10s; /* Firefox */
     -webkit-animation: fadein 10s; /* Safari et Chrome */
     -o-animation: fadein 10s; /* Opera */
-    position: relative;
+   position: relative;
+
 }
 
 .Argumentsprix {
@@ -84,6 +92,7 @@ h5 {
     justify-content: space-between;
     font-size: x-large;
     position: relative;
+    
 }
 @keyframes fadein {
     from {
@@ -355,4 +364,12 @@ margin-bottom: 30px;
         h4 {
             top: 0px;
         }
+        .logo{
+            height: auto;
         }
+        }
+        @media screen and (max-width: 500px){
+            .icon{
+                height: 186px;
+            }
+            }

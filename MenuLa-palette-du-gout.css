@@ -369,4 +369,12 @@ body{
     margin-left: 127px;
     margin-right: 127px;
 }
+.logo{
+    height: auto;
 }
+}
+@media screen and (max-width: 500px){
+    .icon{
+        height: 186px;
+    }
+    }
