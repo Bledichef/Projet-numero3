@@ -9,6 +9,7 @@
 body {
     font-family: 'Roboto';
     text-align: center;
+    margin: 0;
     }
      
 
@@ -72,17 +73,23 @@ h5 {
 
 
 .Choix {
+    display: flex;
+    justify-content: space-between;
     background-color: white;
     border-radius: 40px;
     margin: 40px 25px 30px 25px;
    text-align: left;
-   padding: 10px 20px 0px 20px;
+   padding: 0 20px 0px 20px;
     cursor: pointer;
     animation: fadein 10s;
     -moz-animation: fadein 10s; /* Firefox */
     -webkit-animation: fadein 10s; /* Safari et Chrome */
     -o-animation: fadein 10s; /* Opera */
-    position: relative;
+   position: relative;
+   overflow: hidden;
+}
+.hidden {
+    overflow: hidden;
 }
 
 @keyframes fadein {
@@ -180,19 +187,15 @@ h5 {
       }
     
       .icon{
-       display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #99E2D0;
-        width: 100px;
-        height: 190px;
-        border-top-right-radius: 40px;
-        border-bottom-right-radius: 40px;
-        right: -20px;
-        top: -100px;
-        position: absolute; 
-        opacity: 0; 
-    }
+        display: flex;
+         justify-content: center;
+         align-items: center;
+         background-color: #99E2D0;
+         width: 100px;
+         border-top-right-radius: 40px;
+         border-bottom-right-radius: 40px;
+         margin-right: -120px;
+     }
     
     
     
@@ -208,8 +211,8 @@ h5 {
     }
     
     
-                                                    /* animation  menu prix, icone validation*/
-      @keyframes slide-price {
+                                                    /* animation  menu prix, icon validation*/
+       /*@keyframes slide-price {
         0% {
           -webkit-transform: translateX(0);
           transform: translateX(0);
@@ -218,8 +221,18 @@ h5 {
           -webkit-transform: translateX(-100px);
           transform: translateX(-100px);
         }
+    }*/
+
+    @keyframes slide-validation {
+        0% {
+            margin-right: -120px;
+        }
+        100%{
+            margin-right: -20px;
+        }
     }
-      @keyframes slide-validation {
+
+     /* @keyframes slide-validation {
         0% {
           -webkit-transform: translateX(1000px);
           transform: translateX(1000px);
@@ -230,7 +243,8 @@ h5 {
           transform: translateX(0);
           opacity: 1;
         }
-      }
+      }*/
+      
       @keyframes rotateicon {
         0% {
           -webkit-transform: rotate(0);
@@ -293,7 +307,7 @@ text-decoration: none;
   margin-right: auto;
   }                                                      
 
-  .icon{
+ /* .icon{
     display: flex;
      justify-content: center;
      align-items: center;
@@ -306,7 +320,7 @@ text-decoration: none;
      top: -72px;
      position: absolute; 
      opacity: 0; 
- }
+ }*/
      
  .PhotoResto {
     width: 1700px;
@@ -314,11 +328,11 @@ text-decoration: none;
 }  }
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
    
-    .icon{
+   /* .icon{
         width: 98px;
         height: 162px;
         top: -70px;
-    }
+    }*/
   .PhotoResto{
       width: 900px;
   }
@@ -339,10 +353,10 @@ body{
     .PhotoResto{
     width: 575px;
 }
-.icon{
+/*.icon{
     height: 163px;
     top: -70px;
-}
+}*/
 .Commander{
     margin-left: 127px;
     margin-right: 127px;
@@ -352,7 +366,7 @@ body{
 }
 }
 @media screen and (max-width: 500px){
-.icon{
+/*.icon{
     height: 186px;
-}
+}*/
 }
