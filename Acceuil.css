@@ -481,7 +481,9 @@ footer {
 .PhotoLedelicedessens{
 width: 923px;  
 }  
-
+h6{
+    font-size: inherit;
+}
 
 }
 
