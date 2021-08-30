@@ -567,20 +567,34 @@ footer {
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
 
 .Photopalettedugout{
-    width: 923px;
+    width: 700px;
 }
 .Photolanoteenchantee{
-    width: 923px;
+    width: 700px;
 }
 .PhotoAlafrancaise{
-    width: 923px;
+    width: 700px;
 }
 .PhotoLedelicedessens{
-width: 923px;  
+width: 700px;  
 }  
 h6{
     font-size: inherit;
 }
-
+.nouveau{
+    margin-left: 460px;
+}
+.fa-heart{
+    margin-left: 200px;
+}
+.loader{
+    margin: 150px 50px 50px 100px;
+    width: 480px;
+    height: 300px;
+}
+.fa-map-marker-alt{
+    left: -130px;
+    bottom: -40px;
+}
 }
 
