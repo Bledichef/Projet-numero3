@@ -359,7 +359,7 @@ margin-bottom: 60px;
             width: 1700px;
             height: 660px;
         }  }
-        @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
+        @media screen and (min-width: 576px)                                                        /* code pour tablette */ {
    
           /*  .icon{
                 width: 98px;
@@ -390,9 +390,7 @@ margin-bottom: 60px;
             height: 163px;
             top: -70px;
         }*/
-        .Commander{
-            margin-left: 127px;
-            margin-right: 127px;
+      
         }
         h4 {
             font-size: xx-large;
@@ -404,30 +402,42 @@ margin-bottom: 60px;
         .logo{
             height: auto;
         }
-        }
-        @media screen and (max-width: 500px){
-          /*  .icon{
+        
+            /*  .icon{
                 height: 186px;
             }*/
+        .PhotoResto{
+            width: 370px;
+            height: 350px;
+        }
+        .Titre{
+            font-size: 18px;
+            margin-left: 56px;
+        }
+        .fa-heart{
+            margin-left: 216px;
+            top: 30px;
         }
         h4 {
-            font-size: xx-large;
-            top: 0px;
-        }
+            font-size: medium;
+          }
         h5{
-            font-size: x-large;
+            font-size: medium;
         }
         h3{
-            font-size: xx-large;
+            font-size: large;
         }
         .Commander{
-            font-size: x-large;
+            font-size: large;
+            padding: 10px 10px 10px 10px;
+            margin-left: 100px;
+            margin-right: 100px;
         }
         footer{
-            font-size: xx-large;
             position: relative;
-            top: -110px;
+            top: -250px;
             height: 420px;
         }
+    }
        
             
