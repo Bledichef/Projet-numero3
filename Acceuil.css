@@ -437,26 +437,26 @@ footer {
     .fa-heart{
         margin-left: 90px;
     }                                                             /* code pour mobile */
-    /*.Photopalettedugout{
-        width: 470px;
-        height: 301px;
+    .Photopalettedugout{
+        width: 334px;
+        height: 230px;
     }
     .Photolanoteenchantee{
-      width: 484px;
-      height: 301px;
+      width: 334px;
+      height: 230px;
     }
     .PhotoAlafrancaise{
-        width: 490px;
-        height: 317px;
+        width: 334px;
+        height: 230px;
     }
     .PhotoLedelicedessens{
-        width: 492px;
-        height: 310px;
-    }*/
-    .loader{
         width: 334px;
-        height: 360px;
-        margin: 190px 50px 50px 100px;
+        height: 230px;
+    }
+    .loader{
+        width: 270px;
+        height: 300px;
+        margin: 160px 50px 50px 50px;
     }
     .loaderimg{       
         width: 230px;
@@ -464,7 +464,64 @@ footer {
     .logo{
         height: auto;
     }
-  
+  .nouveau{
+      margin-left: 190px;
+      padding: 0 15px 0 15px;
+      border-radius: 5px;
+      margin-top: 25px;
+  }
+  .Choisir{
+      font-size: 20px;
+  }
+  .Fonctionnement{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .Composez{
+      font-size: 20px;
+  }
+  .Degustez{
+      font-size: 20px;
+  }
+  .Numbers{
+      margin-right: 0px;
+  }
+  .Numbers1{
+      margin-right: 0px;
+  }
+  .Numbers2{
+      margin-right: 0px;
+  }
+  .iconFonctionnement{
+      margin-right: 0px;
+  }
+  h4{
+      top: -20px;
+  }
+  h6{
+      font-weight: lighter;
+      font-size: initial;
+      margin-top: 15px;
+      margin-bottom: -9px;
+  }
+  h3{
+      margin-left: 10px;
+      margin-top: 12px;
+  }
+  .restaurant{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .lieuxcoeur{
+      margin-left: 10px;
+      margin-right: 15px;
+      font-weight: normal;
+      font-size: 19px;
+  }
+  .fa-heart{
+      margin-bottom: 0px;
+  }
     }
 
 @media screen and (min-width: 576px)                                                                             /* code pour tablette */ {
