@@ -428,6 +428,13 @@ footer {
         display: flex;
        justify-content:space-around;
     }
+    .fa-heart{
+        margin-left: 640px;
+        top: 200px;
+    }
+    .photoresto{
+        width: 779px;
+    }
 }
 @media screen and (max-width: 575px){                              /* code pour mobile */
     header{
