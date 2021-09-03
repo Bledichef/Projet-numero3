@@ -367,12 +367,15 @@ margin-bottom: 60px;
                 top: -70px;
             }*/
           .PhotoResto{
-              width: 980px;
+              width: 760px;
           }
-        /*.fa-heart{
+        .fa-heart{
             margin-left: 377px;
             top: 206px;
-        }*/
+        }
+        .Commander{
+            margin-right: 250px;
+        }
         
         }
         @media screen and (max-width: 575px){                                                                     /* code pour mobile */
