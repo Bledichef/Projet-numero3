@@ -395,10 +395,17 @@ footer {
 
         section {
             text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
-      
+        .nouveau{
+            top: 1650px;
+            margin-left: 250px;
+        }
+   
 .restaurant {
-     
+    
     align-content: center;
 }
       
@@ -589,7 +596,7 @@ h6{
     font-size: inherit;
 }
 .nouveau{
-    margin-left: 460px;
+    margin-left: 250px;
 }
 .fa-heart{
     margin-left: 200px;
