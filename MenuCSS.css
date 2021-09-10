@@ -474,7 +474,7 @@ footer {
 }
 @media screen and (min-width: 360px) and (max-width: 380px) {
   section {
-    width: 303px;
+    width: 375px;
   }
   .Titre {
     margin-left: 33px;
@@ -484,10 +484,27 @@ footer {
   }
   footer {
     height: 300px;
+    width: 265px;
   }
 }
 @media screen and (min-width: 410px) and (max-width: 420px) {
   section {
-    width: 334px;
+    width: 375px;
+  }
+}
+@media screen and (min-width: 530px) and (max-width: 545px) {
+  .PhotoResto {
+    width: 540px;
+  }
+}
+@media screen and (min-width: 275px) and (max-width: 285px) {
+  .logo {
+    margin-left: 70px;
+  }
+  section {
+    width: 345px;
+  }
+  footer {
+    width: 250px;
   }
 }
