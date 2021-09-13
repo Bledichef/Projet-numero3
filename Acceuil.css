@@ -629,6 +629,11 @@ footer {
     margin-left: 26px;
   }
 }
+@media screen and (min-width: 900px) {
+  .loader {
+    margin: 200px 0 0 400px;
+  }
+}
 @media screen and (min-width: 355px) and (max-width: 366px) {
   .restaurant {
     margin-left: 4px;
