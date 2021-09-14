@@ -37,11 +37,11 @@ header {
 
 section {
   background-color: #f7f7f7;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -110px;
+  top: -80px;
   border-radius: 100px 100px 0 0;
 }
 
@@ -451,8 +451,8 @@ footer {
     margin-right: 100px;
   }
   footer {
-    position: relative;
-    top: -250px;
+    /*  position: relative;
+    top: -250px;*/
     height: 420px;
   }
 }
