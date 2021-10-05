@@ -147,6 +147,11 @@ h5 {
   font-size: 15px;
   margin-left: 300px;
   margin-right: 300px;
+  opacity: 1;
+}
+.Commander:hover{
+  box-shadow: 10px 10px 14px #aaa;
+opacity: 0.8;
 }
 
 /* .Commander:hover {
