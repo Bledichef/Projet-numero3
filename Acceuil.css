@@ -405,15 +405,13 @@ footer {
 
   .restaurants {
     width: 900px;
+    align-content: center;
   }
   .nouveau {
     top: 1650px;
     margin-left: 250px;
   }
 
-  .restaurant {
-    align-content: center;
-  }
 
   .loader {
     margin: 200px 0 0 650px;
@@ -629,7 +627,7 @@ footer {
     bottom: -40px;
   }
   .restaurant {
-   
+    width: 500px;
     margin-right: 26px;
     margin-left: 26px;
   }
