@@ -43,24 +43,28 @@ section {
   width: 900px;
   height: 500px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .Photolanoteenchantee {
   width: 900px;
   height: 500px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .PhotoAlafrancaise {
   width: 900px;
   height: 500px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .PhotoLedelicedessens {
   width: 900px;
   height: 500px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 .restaurant {
@@ -403,7 +407,7 @@ footer {
     width: 900px;
   }
   .nouveau {
-    top: 1820px;
+    top: 1650px;
     margin-left: 250px;
   }
 
@@ -487,19 +491,19 @@ footer {
     margin-left: 90px;
   }
   .Photopalettedugout {
-    width: 334px;
+    width: 100%;
     height: 170px;
   }
   .Photolanoteenchantee {
-    width: 334px;
+    width: 100%;
     height: 170px;
   }
   .PhotoAlafrancaise {
-    width: 334px;
+    width: 100%;
     height: 170px;
   }
   .PhotoLedelicedessens {
-    width: 334px;
+    width: 100%;
     height: 170px;
   }
   .loader {
@@ -514,7 +518,7 @@ footer {
     height: auto;
   }
   .nouveau {
-    margin-left: 243px;
+    margin-left: 160px;
     padding: 0 10px 0 7px;
     border-radius: 5px;
     margin-top: 25px;
@@ -595,16 +599,16 @@ footer {
 
 @media screen and (min-width: 576px) /* code pour tablette */ {
   .Photopalettedugout {
-    width: 700px;
+    width: 100%;
   }
   .Photolanoteenchantee {
-    width: 700px;
+    width: 100%;
   }
   .PhotoAlafrancaise {
-    width: 700px;
+    width: 100%;
   }
   .PhotoLedelicedessens {
-    width: 700px;
+    width: 100%;
   }
   h6 {
     font-size: inherit;
@@ -625,6 +629,7 @@ footer {
     bottom: -40px;
   }
   .restaurant {
+   
     margin-right: 26px;
     margin-left: 26px;
   }
@@ -673,7 +678,7 @@ footer {
     width: 900px;
   }
   .nouveau {
-    top: 1830px;
+    top: 1660px;
   }
 }
 @media screen and (min-width: 535px) and (max-width: 545px) {
@@ -690,16 +695,16 @@ footer {
     margin-left: 150px;
   }
   .Photopalettedugout {
-    width: 244px;
+    width: 100%;
   }
   .Photolanoteenchantee {
-    width: 244px;
+    width: 100%;
   }
   .PhotoAlafrancaise {
-    width: 244px;
+    width: 100%;
   }
   .PhotoLedelicedessens {
-    width: 244px;
+    width: 100%;
   }
   .loader {
     margin: 160px 50px 50px 24px;
