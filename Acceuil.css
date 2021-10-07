@@ -121,9 +121,8 @@ h3 {
 }
 
 .nouveau {
-  position: absolute;
+ position: absolute;
   background-color: #99e2d0;
-  margin-left: 700px;
   margin-top: 40px;
   padding: 0 50px 0 10px;
   color: teal;
@@ -413,11 +412,6 @@ footer {
     width: 900px;
     align-content: center;
   }
-  .nouveau {
-    top: 1650px;
-    margin-left: 250px;
-  }
-
 
   .loader {
     margin: 200px 0 0 650px;
@@ -464,6 +458,12 @@ footer {
   .photoresto {
     width: 779px;
   }
+  /*.nouveau{
+    margin-left: 0px;
+    position: relative;
+    height: 90px;
+    left: 380px;
+  }*/
 }
 @media screen and (max-width: 575px) {
   /* code pour mobile */
@@ -602,6 +602,9 @@ footer {
 }
 
 @media screen and (min-width: 576px) /* code pour tablette */ {
+h2{
+  width: 100%;
+}
   .Photopalettedugout {
     width: 100%;
   }
@@ -617,9 +620,9 @@ footer {
   h6 {
     font-size: inherit;
   }
-  .nouveau {
-    margin-left: 250px;
-  }
+/*.nouveau{
+  margin-left: 350px;
+}*/
   .fa-heart {
     margin-left: 200px;
   }
@@ -633,7 +636,8 @@ footer {
     bottom: -40px;
   }
   .restaurant {
-    width: 500px;
+  
+    width: 700px;
     margin-right: 26px;
     margin-left: 26px;
   }
@@ -681,9 +685,7 @@ footer {
   .restaurants {
     width: 900px;
   }
-  .nouveau {
-    top: 1660px;
-  }
+
 }
 @media screen and (min-width: 535px) and (max-width: 545px) {
   .restaurant {
