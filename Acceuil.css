@@ -620,9 +620,7 @@ footer {
 }
 
 @media screen and (min-width: 576px) /* code pour tablette */ {
-h2{
-  width: 100%;
-}
+
   .Photopalettedugout {
     width: 100%;
   }
