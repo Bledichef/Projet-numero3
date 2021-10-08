@@ -123,11 +123,19 @@ h3 {
 .nouveau {
  position: absolute;
   background-color: #99e2d0;
-  margin-top: 40px;
+  
   padding: 0 50px 0 10px;
   color: teal;
   font-size: 22px;
 }
+.nouveau1 {
+  position: absolute;
+   background-color: #99e2d0;
+  
+   padding: 0 50px 0 10px;
+   color: teal;
+   font-size: 22px;
+ }
 
 .lienLapalettedugout {
   text-decoration: none;
@@ -458,12 +466,12 @@ footer {
   .photoresto {
     width: 779px;
   }
-  /*.nouveau{
-    margin-left: 0px;
-    position: relative;
-    height: 90px;
-    left: 380px;
-  }*/
+  .nouveau {
+    margin-top: 240px;
+  }
+  .nouveau1 {
+   margin-top: 1100px;
+  }
 }
 @media screen and (max-width: 575px) {
   /* code pour mobile */
@@ -488,6 +496,10 @@ footer {
     padding: 30px 0 40px 0;
   }
   .nouveau {
+    margin-left: 280px;
+    font-size: 14px;
+  }
+  .nouveau1 {
     margin-left: 280px;
     font-size: 14px;
   }
@@ -525,7 +537,13 @@ footer {
     margin-left: 160px;
     padding: 0 10px 0 7px;
     border-radius: 5px;
-    margin-top: 25px;
+   
+  }
+  .nouveau1 {
+    margin-left: 160px;
+    padding: 0 10px 0 7px;
+    border-radius: 5px;
+   
   }
   .Choisir {
     font-size: 20px;
@@ -621,7 +639,10 @@ h2{
     font-size: inherit;
   }
 .nouveau{
-  margin-left: 350px;
+  margin-left: 290px;
+}
+.nouveau1{
+  margin-left: 290px;
 }
   .fa-heart {
     margin-left: 200px;
@@ -637,7 +658,7 @@ h2{
   }
   .restaurant {
   
-    width: 700px;
+    width: 93%;
     margin-right: 26px;
     margin-left: 26px;
   }
@@ -675,6 +696,9 @@ h2{
   .nouveau {
     margin-left: 190px;
   }
+  .nouveau1 {
+    margin-left: 190px;
+  }
   .loader {
     margin: 141px 50px 63px 5px;
     width: 260px;
@@ -698,6 +722,9 @@ h2{
 }
 @media screen and (min-width: 270px) and (max-width: 290px) {
   .nouveau {
+    margin-left: 150px;
+  }
+  .nouveau1 {
     margin-left: 150px;
   }
   .Photopalettedugout {
