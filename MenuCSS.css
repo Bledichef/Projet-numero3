@@ -47,6 +47,7 @@ section {
 }
 
 h3 {
+  font-family: "Shrikhand";
   text-align: left;
   font-weight: lighter;
   margin-left: 40px;
@@ -150,9 +151,9 @@ h5 {
   margin-right: 300px;
   opacity: 1;
 }
-.Commander:hover{
+.Commander:hover {
   box-shadow: 10px 10px 14px #aaa;
-opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* .Commander:hover {
@@ -175,7 +176,17 @@ opacity: 0.8;
   top: 100px;
   width: 70px;
 }
-
+@keyframes animheart {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .fa-heart:active {
   animation: animheart 3s ease-in-out;
   display: inline-block;
@@ -259,7 +270,6 @@ article:hover .icon {
   }
 }
 
-
 @keyframes slide-unvalidation {
   0% {
     margin-right: -20px;
@@ -270,8 +280,8 @@ article:hover .icon {
 }
 
 article .icon {
-  -webkit-animation: slide-unvalidation 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
+  -webkit-animation: slide-unvalidation 1.5s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-unvalidation 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation-delay: 0.12s;
 }
@@ -340,11 +350,6 @@ footer {
   color: white;
 }
 @media screen and (min-width: 576px) /* code pour tablette */ {
-  /*  .icon{
-                width: 98px;
-                height: 162px;
-                top: -70px;
-            }*/
   .PhotoResto {
     width: 100%;
   }
@@ -355,7 +360,6 @@ footer {
   .Commander {
     margin-right: 250px;
   }
-
 }
 /* Format Grand écran  */
 
@@ -394,21 +398,6 @@ footer {
     margin-right: auto;
   }
 
-  /*  .icon{
-            display: flex;
-             justify-content: center;
-             align-items: center;
-             background-color: #99E2D0;
-             width: 100px;
-             height: 164px;
-             border-top-right-radius: 40px;
-             border-bottom-right-radius: 40px;
-             right: -20px;
-             top: -72px;
-             position: relative; 
-             opacity: 0; 
-         }*/
-
   .PhotoResto {
     width: 100%;
     height: 660px;
@@ -424,7 +413,7 @@ footer {
     margin-left: 412px;
     top: 217px;
   }
- 
+
   /*  .icon{
             height: 163px;
             top: -70px;
@@ -445,7 +434,6 @@ footer {
                 height: 186px;
             }*/
   .PhotoResto {
-    
     height: 350px;
   }
   .Titre {
@@ -478,12 +466,11 @@ footer {
   }
 }
 
-
 @media screen and (min-width: 310px) and (max-width: 330px) {
   a {
     margin-right: 30px;
   }
-   section {
+  section {
     width: 342px;
   }
   footer {
@@ -505,7 +492,6 @@ footer {
     height: 300px;
     width: 295px;
   }
-
 }
 @media screen and (min-width: 410px) and (max-width: 420px) {
   section {

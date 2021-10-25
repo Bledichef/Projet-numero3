@@ -121,21 +121,21 @@ h3 {
 }
 
 .nouveau {
- position: absolute;
+  position: absolute;
   background-color: #99e2d0;
-  
+
   padding: 0 50px 0 10px;
   color: teal;
   font-size: 22px;
 }
 .nouveau1 {
   position: absolute;
-   background-color: #99e2d0;
-  
-   padding: 0 50px 0 10px;
-   color: teal;
-   font-size: 22px;
- }
+  background-color: #99e2d0;
+
+  padding: 0 50px 0 10px;
+  color: teal;
+  font-size: 22px;
+}
 
 .lienLapalettedugout {
   text-decoration: none;
@@ -168,7 +168,7 @@ nav {
   padding-bottom: 120px;
   animation: font 8s ease-in-out;
 }
-.Input{
+.Input {
   background-color: #ededed;
   border: none;
 }
@@ -196,12 +196,10 @@ nav {
   transition: transform 0.5s;
   opacity: 1;
 }
-.ancreRestaurants:hover{
+.ancreRestaurants:hover {
   box-shadow: 10px 10px 14px #aaa;
-opacity: 0.8;
+  opacity: 0.8;
 }
-
-
 
 /*  code de la partie Aside */
 
@@ -423,6 +421,17 @@ footer {
   .loader {
     margin: 200px 0 0 650px;
   }
+  @keyframes animheart {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
   .fa-heart:hover {
     /*    transform: scale(1.50);
@@ -451,7 +460,7 @@ footer {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
   }
-  
+
   .textandAncre {
     display: flex;
     justify-content: space-around;
@@ -467,7 +476,7 @@ footer {
     margin-top: 240px;
   }
   .nouveau1 {
-   margin-top: 1100px;
+    margin-top: 1100px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -531,13 +540,13 @@ footer {
     margin-left: 235px;
     padding: 0 10px 0 7px;
     border-radius: 5px;
-   margin-top: 20px;
+    margin-top: 20px;
   }
   .nouveau1 {
     margin-left: 235px;
     padding: 0 10px 0 7px;
     border-radius: 5px;
-   margin-top: 20px;
+    margin-top: 20px;
   }
   .Choisir {
     font-size: 20px;
@@ -614,7 +623,6 @@ footer {
 }
 
 @media screen and (min-width: 576px) /* code pour tablette */ {
-
   .Photopalettedugout {
     width: 100%;
   }
@@ -630,12 +638,12 @@ footer {
   h6 {
     font-size: inherit;
   }
-.nouveau{
-  margin-left: 290px;
-}
-.nouveau1{
-  margin-left: 290px;
-}
+  .nouveau {
+    margin-left: 290px;
+  }
+  .nouveau1 {
+    margin-left: 290px;
+  }
   .fa-heart {
     margin-left: 200px;
   }
@@ -646,7 +654,6 @@ footer {
   }
 
   .restaurant {
-  
     width: 93%;
     margin-right: 26px;
     margin-left: 26px;
@@ -698,7 +705,6 @@ footer {
   .restaurants {
     width: 900px;
   }
-
 }
 @media screen and (min-width: 535px) and (max-width: 545px) {
   .restaurant {
