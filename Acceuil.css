@@ -168,7 +168,10 @@ nav {
   padding-bottom: 120px;
   animation: font 8s ease-in-out;
 }
-
+.Input{
+  background-color: #ededed;
+  border: none;
+}
 .localisation {
   background-color: #ededed;
   padding: 0px 0px 20px 0px;
@@ -198,11 +201,7 @@ nav {
 opacity: 0.8;
 }
 
-.fa-map-marker-alt {
-  position: relative;
-  left: -200px;
-  bottom: -65px;
-}
+
 
 /*  code de la partie Aside */
 
@@ -452,9 +451,7 @@ footer {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
   }
-  .fa-map-marker-alt {
-    bottom: -45px;
-  }
+  
   .textandAncre {
     display: flex;
     justify-content: space-around;
@@ -485,10 +482,7 @@ footer {
   .localisation {
     padding: 0 0 4px 0;
   }
-  .fa-map-marker-alt {
-    left: -90px;
-    bottom: -33px;
-  }
+
   h1 {
     font-size: large;
   }
@@ -650,10 +644,7 @@ footer {
     width: 480px;
     height: 300px;
   }
-  .fa-map-marker-alt {
-    left: -130px;
-    bottom: -40px;
-  }
+
   .restaurant {
   
     width: 93%;
