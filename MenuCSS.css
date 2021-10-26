@@ -75,10 +75,10 @@ h5 {
   text-align: left;
   padding: 0 20px 0px 20px;
   cursor: pointer;
-  animation: fadein 6s;
-  -moz-animation: fadein 6s; /* Firefox */
-  -webkit-animation: fadein 6s; /* Safari et Chrome */
-  -o-animation: fadein 6s; /* Opera */
+  animation: fadein 4s;
+  -moz-animation: fadein 4s; /* Firefox */
+  -webkit-animation: fadein 4s; /* Safari et Chrome */
+  -o-animation: fadein 4s; /* Opera */
   position: relative;
   overflow: hidden;
 }
