@@ -1,0 +1,746 @@
+@font-face {
+  font-family: "Shrikhand";
+  src: url("Shrikhand-Regular.ttf") format("truetype");
+  font-family: "Roboto";
+  src: url("Roboto-Regular.ttf") format("truetype");
+}
+/*  @media screen and (max-width: 1024px) {  */
+body {
+  font-family: "Roboto";
+  text-align: center;
+}
+
+title {
+  font-family: "Shrikhand";
+}
+
+/*     Code Header     */
+
+.logo {
+  height: 70px;
+  padding: 40px 0 20px 0;
+  animation: font 8s ease-in-out;
+}
+
+/*           Code de la partie Header    */
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation: font 8s ease-in-out;
+}
+
+/*  Code de la partie section "restaurant" */
+
+section {
+  background-color: #f7f7f7;
+  text-align: left;
+  animation: font 8s ease-in-out;
+  padding-bottom: 10px;
+}
+
+.Photopalettedugout {
+  width: 900px;
+  height: 500px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.Photolanoteenchantee {
+  width: 900px;
+  height: 500px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.PhotoAlafrancaise {
+  width: 900px;
+  height: 500px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.PhotoLedelicedessens {
+  width: 900px;
+  height: 500px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.restaurant {
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 70px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h3 {
+  margin-left: 40px;
+  font-size: larger;
+}
+
+/* Grossissement au survol des restaurants a finir 
+.restaurant:hover{
+    transform: scale(1.2) ;
+  
+}         */
+
+.fa-heart {
+  margin-left: 500px;
+  margin-bottom: 50px;
+  width: 62px;
+}
+.fa-heart:active {
+  /*    transform: scale(1.50);
+    color: #9356DC;  */
+
+  animation: animheart 3s ease-in-out;
+  display: inline-block;
+  opacity: 1;
+  background: linear-gradient(
+    to left,
+    #9356dc,
+    #b35cdc,
+    #cf64dc,
+    #e86edb,
+    #ff79da
+  );
+  background: -webkit-linear-gradient(
+    to left,
+    #9356dc,
+    #b35cdc,
+    #cf64dc,
+    #e86edb,
+    #ff79da
+  );
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.nouveau {
+  position: absolute;
+  background-color: #99e2d0;
+
+  padding: 0 50px 0 10px;
+  color: teal;
+  font-size: 22px;
+}
+.nouveau1 {
+  position: absolute;
+  background-color: #99e2d0;
+
+  padding: 0 50px 0 10px;
+  color: teal;
+  font-size: 22px;
+}
+
+.lienLapalettedugout {
+  text-decoration: none;
+  color: black;
+}
+
+.lienLanoteenchantée {
+  text-decoration: none;
+  color: black;
+}
+
+.lien {
+  text-decoration: none;
+  color: black;
+}
+
+.lieuxcoeur {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 70px;
+  font-weight: normal;
+  font-size: 30px;
+}
+/*       Code pour la partie Nav          */
+
+nav {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-bottom: 120px;
+  animation: font 8s ease-in-out;
+}
+.Input {
+  background-color: #ededed;
+  border: none;
+}
+.localisation {
+  background-color: #ededed;
+  padding: 10px 0px 20px 0px;
+  box-shadow: 0px -10px 15px 0px #eae5e5;
+}
+
+.textandAncre {
+  margin-bottom: 80px;
+  margin: 100px;
+}
+
+.ancreRestaurants {
+  box-shadow: 5px 5px 7px #aaa;
+  background: linear-gradient(#ff79da, #ae76e1);
+  background-color: #ff79da;
+  border-radius: 120px;
+  text-decoration-color: #f7f7f7;
+  text-decoration-line: none;
+  color: white;
+  padding: 30px;
+  font-size: 15px;
+  transition: transform 0.5s;
+  opacity: 1;
+}
+.ancreRestaurants:hover {
+  box-shadow: 10px 10px 14px #aaa;
+  opacity: 0.8;
+}
+
+/*  code de la partie Aside */
+
+aside {
+  text-align: left;
+  margin-left: 10px;
+  animation: font 8s ease-in-out;
+}
+
+h4 {
+  position: relative;
+  top: -39px;
+}
+
+.Choisir {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Composez {
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Degustez {
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Fonctionnement {
+  background-color: #f7f7f7;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 50px 0px 50px 0px;
+}
+
+.Fonctionnement:hover {
+  background-color: #f7f0ff;
+}
+.fa-mobile-alt {
+  position: relative;
+  top: 35px;
+}
+.fa-ellipsis-v {
+  position: relative;
+  top: 35px;
+}
+.fa-bars {
+  position: relative;
+  top: 35px;
+}
+.fa-store {
+  position: relative;
+  top: 35px;
+}
+
+.Numbers {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #9356dc;
+  margin-right: 30px;
+  padding: 12px 8px 8px 8px;
+  color: white;
+  position: relative;
+  left: -25px;
+  top: 25px;
+}
+
+.Numbers1 {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #9356dc;
+  margin-right: 30px;
+  padding: 12px 8px 8px 8px;
+  color: white;
+  position: relative;
+  left: -25px;
+  top: 25px;
+}
+
+.Numbers2 {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #9356dc;
+  margin-right: 30px;
+  padding: 12px 8px 8px 8px;
+  color: white;
+  position: relative;
+  left: -25px;
+  top: 25px;
+}
+
+.iconFonctionnement {
+  color: #b9b9b9;
+  margin-right: 40px;
+}
+
+.iconFonctionnement:hover {
+  color: #9356dc;
+}
+
+h2 {
+  text-align: left;
+  margin-left: 25px;
+  padding: 90px 0 40px 0;
+}
+
+/* Code pour Footer */
+
+footer {
+  text-align: left;
+  color: white;
+  background-color: #504d4d;
+  padding: 40px;
+  animation: font 8s ease-in-out;
+}
+
+.logofooter {
+  filter: invert(100%);
+  margin-bottom: 30px;
+}
+
+.fa-utensils {
+  margin-right: 20px;
+}
+
+.fa-hands-helping {
+  margin-right: 6px;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.mail {
+  text-decoration: none;
+  color: white;
+}
+
+/* loader */
+
+.loader {
+  background: linear-gradient(to bottom right, #ff79da, #9356dc, #99e2d0);
+  width: 550px;
+  height: 350px;
+  font-size: 4.6rem;
+  vertical-align: middle;
+  text-align: center;
+  position: fixed;
+  z-index: 9999;
+  border-radius: 50%;
+  pointer-events: none;
+  margin: 600px 50px 50px 200px;
+  animation: loader 5s ease-in-out 1.3s forwards;
+}
+
+@keyframes font {
+  0% {
+    opacity: -1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+.loader {
+  border: 16px solid #ff79da;
+  border-top: 16px solid #99e2d0;
+}
+
+.loaderimg {
+  width: 480px;
+  margin-top: 130px;
+}
+
+/* Format Grand écran  */
+
+@media screen and (min-width: 1024px) {
+  section {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .restaurants {
+    width: 900px;
+    align-content: center;
+  }
+
+  .loader {
+    margin: 200px 0 0 650px;
+  }
+  @keyframes animheart {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .fa-heart:hover {
+    /*    transform: scale(1.50);
+        color: #9356DC;  */
+
+    animation: animheart 3s ease-in-out;
+    display: inline-block;
+    opacity: 1;
+    background: linear-gradient(
+      to left,
+      #9356dc,
+      #b35cdc,
+      #cf64dc,
+      #e86edb,
+      #ff79da
+    );
+    background: -webkit-linear-gradient(
+      to left,
+      #9356dc,
+      #b35cdc,
+      #cf64dc,
+      #e86edb,
+      #ff79da
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+
+  .textandAncre {
+    display: flex;
+    justify-content: space-around;
+  }
+  .fa-heart {
+    margin-left: 640px;
+    top: 200px;
+  }
+  .photoresto {
+    width: 779px;
+  }
+  .nouveau {
+    margin-top: 240px;
+  }
+  .nouveau1 {
+    margin-top: 1100px;
+  }
+}
+@media screen and (max-width: 575px) {
+  /* code pour mobile */
+  header {
+    margin-top: -20px;
+    margin-bottom: 4px;
+  }
+  nav {
+    padding-bottom: 70px;
+  }
+  .localisation {
+    padding: 0 0 4px 0;
+  }
+
+  h1 {
+    font-size: large;
+  }
+  h2 {
+    padding: 30px 0 40px 0;
+  }
+  .nouveau {
+    margin-left: 280px;
+    font-size: 14px;
+  }
+  .nouveau1 {
+    margin-left: 280px;
+    font-size: 14px;
+  }
+  .fa-heart {
+    margin-left: 90px;
+  }
+  .Photopalettedugout {
+    width: 100%;
+    height: 170px;
+  }
+  .Photolanoteenchantee {
+    width: 100%;
+    height: 170px;
+  }
+  .PhotoAlafrancaise {
+    width: 100%;
+    height: 170px;
+  }
+  .PhotoLedelicedessens {
+    width: 100%;
+    height: 170px;
+  }
+  .loader {
+    width: 270px;
+    height: 300px;
+    margin: 160px 50px 50px 50px;
+  }
+  .loaderimg {
+    width: 230px;
+  }
+  .logo {
+    height: auto;
+  }
+  .nouveau {
+    margin-left: 235px;
+    padding: 0 10px 0 7px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .nouveau1 {
+    margin-left: 235px;
+    padding: 0 10px 0 7px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .Choisir {
+    font-size: 20px;
+  }
+  .Fonctionnement {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px 0 15px 0;
+  }
+  .Composez {
+    font-size: 20px;
+  }
+  .Degustez {
+    font-size: 20px;
+  }
+  .Numbers {
+    margin-right: 0px;
+    padding: 0px;
+    top: 25px;
+  }
+  .Numbers1 {
+    margin-right: 0px;
+    padding: 0px;
+    top: 25px;
+  }
+  .Numbers2 {
+    margin-right: 0px;
+    padding: 0px;
+    top: 25px;
+  }
+  .iconFonctionnement {
+    margin-right: 0px;
+  }
+  h5 {
+    margin-left: 20px;
+    margin-top: 34px;
+  }
+  h4 {
+    top: -20px;
+  }
+  h6 {
+    font-weight: lighter;
+    font-size: initial;
+    margin-top: 15px;
+    margin-bottom: -9px;
+  }
+  h3 {
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+  }
+  .restaurant {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .lieuxcoeur {
+    margin-left: 10px;
+    margin-right: 15px;
+    font-weight: normal;
+    font-size: 19px;
+  }
+  .fa-heart {
+    margin-bottom: 0px;
+  }
+  .textandAncre {
+    margin: 0px;
+    margin-bottom: 70px;
+  }
+  .ancreRestaurants {
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) /* code pour tablette */ {
+  .Photopalettedugout {
+    width: 100%;
+  }
+  .Photolanoteenchantee {
+    width: 100%;
+  }
+  .PhotoAlafrancaise {
+    width: 100%;
+  }
+  .PhotoLedelicedessens {
+    width: 100%;
+  }
+  h6 {
+    font-size: inherit;
+  }
+  .nouveau {
+    margin-left: 290px;
+  }
+  .nouveau1 {
+    margin-left: 290px;
+  }
+  .fa-heart {
+    margin-left: 200px;
+  }
+  .loader {
+    margin: 350px 50px 50px 200px;
+    width: 480px;
+    height: 300px;
+  }
+
+  .restaurant {
+    width: 93%;
+    margin-right: 26px;
+    margin-left: 26px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .loader {
+    margin: 200px 0 0 400px;
+  }
+}
+@media screen and (min-width: 355px) and (max-width: 366px) {
+  .restaurant {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
+@media screen and (min-width: 405px) and (max-width: 415px) {
+  .restaurant {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 315px) and (max-width: 325px) {
+  .Photopalettedugout {
+    width: 280px;
+  }
+  .Photolanoteenchantee {
+    width: 280px;
+  }
+  .PhotoAlafrancaise {
+    width: 280px;
+  }
+  .PhotoLedelicedessens {
+    width: 280px;
+  }
+  .nouveau {
+    margin-left: 190px;
+  }
+  .nouveau1 {
+    margin-left: 190px;
+  }
+  .loader {
+    margin: 141px 50px 63px 5px;
+    width: 260px;
+    height: 280px;
+  }
+}
+@media screen and (min-width: 1022px) and (max-width: 1025px) {
+  .restaurants {
+    width: 900px;
+  }
+}
+@media screen and (min-width: 535px) and (max-width: 545px) {
+  .restaurant {
+    margin-left: 95px;
+    margin-right: 95px;
+  }
+  .loader {
+    margin: 160px 50px 50px 95px;
+  }
+}
+@media screen and (min-width: 270px) and (max-width: 290px) {
+  .nouveau {
+    margin-left: 150px;
+  }
+  .nouveau1 {
+    margin-left: 150px;
+  }
+  .Photopalettedugout {
+    width: 100%;
+  }
+  .Photolanoteenchantee {
+    width: 100%;
+  }
+  .PhotoAlafrancaise {
+    width: 100%;
+  }
+  .PhotoLedelicedessens {
+    width: 100%;
+  }
+  .loader {
+    margin: 160px 50px 50px 24px;
+    width: 200px;
+    font-size: 20px;
+    height: 230px;
+  }
+  .loaderimg {
+    width: 190px;
+  }
+}
