@@ -19,7 +19,9 @@ header {
 }
 
 .fa-arrow-left {
-  font-size: xx-large;
+  padding-top: 10px;
+  color: black;
+  font-size: large;
   position: absolute;
   left: 35px;
 }
@@ -48,7 +50,6 @@ section {
 }
 
 h3 {
-  font-family: "Shrikhand";
   text-align: left;
   font-weight: lighter;
   margin-left: 40px;
