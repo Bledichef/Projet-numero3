@@ -235,10 +235,10 @@ h5 {
 }
 
 article:hover .icon {
-  -webkit-animation: slide-validation 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  -webkit-animation: slide-validation 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
-  animation: slide-validation 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation-delay: 0.12s;
+  animation: slide-validation 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation-delay: 0.1s;
 }
 
 @keyframes slide-validation {
@@ -260,10 +260,10 @@ article:hover .icon {
 }
 
 article .icon {
-  -webkit-animation: slide-unvalidation 1.5s
+  -webkit-animation: slide-unvalidation 0.8s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-unvalidation 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation-delay: 0.12s;
+  animation: slide-unvalidation 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation-delay: 0.1s;
 }
 .fa-check-circle {
   font-size: 1.5em;
@@ -274,8 +274,8 @@ article:hover .fa-check-circle {
   font-size: 1.5em;
   color: #fff;
   transition: transform 500ms ease-in-out;
-  -webkit-animation: rotateicon 2s ease-in-out both;
-  animation: rotateicon 2s ease-in-out both;
+  -webkit-animation: rotateicon 0.8s ease-in-out both;
+  animation: rotateicon 0.8s ease-in-out both;
 }
 @keyframes rotateicon {
   0% {
