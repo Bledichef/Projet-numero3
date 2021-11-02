@@ -93,10 +93,10 @@ h5 {
   overflow: hidden;
 }
 .Entrée {
-  animation: fadein 5s;
-  -moz-animation: fadein 5s; /* Firefox */
-  -webkit-animation: fadein 5s; /* Safari et Chrome */
-  -o-animation: fadein 5s; /* Opera */
+  animation: fadein 7s;
+  -moz-animation: fadein 7s; /* Firefox */
+  -webkit-animation: fadein 7s; /* Safari et Chrome */
+  -o-animation: fadein 7s; /* Opera */
 }
 .Plats {
   animation: fadein 10s;
@@ -111,8 +111,6 @@ h5 {
   -o-animation: fadein 15s; /* Opera */
 }
 .Argumentsprix {
-  /*   display: flex;
-    justify-content: space-between;*/
   font-size: x-large;
   position: relative;
 }
