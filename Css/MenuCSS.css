@@ -85,17 +85,31 @@ h5 {
   text-align: left;
   padding: 0 20px 0px 20px;
   cursor: pointer;
-  animation: fadein 4s;
-  -moz-animation: fadein 4s; /* Firefox */
-  -webkit-animation: fadein 4s; /* Safari et Chrome */
-  -o-animation: fadein 4s; /* Opera */
+
   position: relative;
   overflow: hidden;
 }
 .hidden {
   overflow: hidden;
 }
-
+.Entrée {
+  animation: fadein 5s;
+  -moz-animation: fadein 5s; /* Firefox */
+  -webkit-animation: fadein 5s; /* Safari et Chrome */
+  -o-animation: fadein 5s; /* Opera */
+}
+.Plats {
+  animation: fadein 10s;
+  -moz-animation: fadein 10s; /* Firefox */
+  -webkit-animation: fadein 10s; /* Safari et Chrome */
+  -o-animation: fadein 10s; /* Opera */
+}
+.Desserts {
+  animation: fadein 15s;
+  -moz-animation: fadein 15s; /* Firefox */
+  -webkit-animation: fadein 15s; /* Safari et Chrome */
+  -o-animation: fadein 15s; /* Opera */
+}
 .Argumentsprix {
   /*   display: flex;
     justify-content: space-between;*/
@@ -149,6 +163,7 @@ h5 {
   padding-top: 20px;
 }
 .Commander {
+  margin-top: 20px;
   background: linear-gradient(#ff79da, #ae76e1);
   background-color: #ff79da;
   border-radius: 120px;
@@ -197,10 +212,11 @@ h5 {
     opacity: 1;
   }
 }
-.fa-heart:active {
-  animation: animheart 3s ease-in-out;
+.fa-heart:hover {
+  -webkit-animation: animheart 1s ease-in-out;
+  animation: animheart 1s ease-in-out;
   display: inline-block;
-  opacity: 1;
+
   background: linear-gradient(
     to left,
     #9356dc,
